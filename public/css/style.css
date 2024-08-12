@@ -1,0 +1,193 @@
+#topo{
+    width: 100%;
+    height: 70px;
+    background-color: #1b609b;
+}
+
+@media screen and (min-width: 500px) {
+    #topo {
+        width: 100%;
+        height: 100px;
+        background-color: #1b609b;
+    }
+}
+
+#lintatopo{
+   width: 100%;
+   height: 3px;
+   background: orange;
+}
+
+#logomeiaentrada{
+    height: 40px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+    #logomeiaentrada {
+        height: 60px;
+        text-align: center;
+    }
+}
+
+#divlogomeiaentrada{
+    margin: auto;
+    text-align: center;
+}
+
+#divp1p2{
+    margin-top: 30px;
+}
+
+#p1{
+    color: #1b609b;
+    font-size: 15px;
+    margin-top: 20px;
+    display:inline;
+}
+
+@media screen and (min-width: 500px) {
+    #p1 {
+        color: #1b609b;
+        font-size: 40px;
+        margin-top: 20px;
+        display:inline;
+    }
+}
+
+#p2{
+    color: #1b609b;
+    font-size: 10px;
+    display:inline;
+}
+
+@media screen and (min-width: 500px) {
+    #p2 {
+        color: #1b609b;
+        font-size: 20px;
+        display:inline;
+    }
+}
+
+#segundalinha{
+        width: 100%;
+        height: 3px;
+        background-color: #1b609b;
+}
+
+#documentovalido{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background: rgba(46, 223, 84, 0.4);
+    text-align: center;
+    padding: 15px;
+}
+
+#documentoinvalido{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background: rgba(194, 31, 9, 0.4);
+    text-align: center;
+    padding: 15px;
+}
+
+#uneatesta{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 500px) {
+    #uneatesta {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 18px;
+    }
+}
+
+#imagem{
+
+    text-align: center;
+}
+
+#foto{
+    width: 250px;
+    border-radius: 10px;
+}
+
+#paragrafocorpo{
+    display: inline;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#certificacao{
+    width: 100%;
+    border: 2px solid rgb(192, 184, 184);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+#pcertifica{
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+#divcertifica{
+    padding-right: 5px;
+    padding-left: 5px;
+    color: rgb(192, 184, 184);
+    font-size: 9px;
+}
+
+@media screen and (min-width: 500px) {
+    #divcertifica {
+        padding-right: 35px;
+        padding-left: 35px;
+        color: rgb(192, 184, 184);
+        font-size: 18px;
+    }
+}
+
+html,body{
+    height:100%;
+}
+
+#pai-inv{
+    width: 100%;
+    height: 90%;
+}
+
+#rodape-inv{
+    width: 100%;
+    height: 10%;
+    background-color: #1b609b;
+}
+
+#documentovalido-inv{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background: rgba(235, 84, 58, 0.4);
+    text-align: center;
+    padding: 15px;
+}
+
+#documentoinvalido-inv{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background: rgba(141, 24, 3, 0.4);
+    text-align: center;
+    padding: 15px;
+}
+
+#parag-inv{
+    font-size: 20px;
+    display: inline;
+}
